@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-cyber-bg text-white font-sans;
+}
+
+.cyber-gradient {
+  background: radial-gradient(circle at top, #22d3ee33 0, transparent 60%),
+              radial-gradient(circle at bottom, #f472b633 0, transparent 60%),
+              #020617;
+}
